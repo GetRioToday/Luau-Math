@@ -32,7 +32,7 @@ local math = {
 
 	abs = function(Input: number): number
 		if Input < 0 then
-			return Input + Input + Input;
+			return Input - Input - Input;
 		end
 
 		return Input;
